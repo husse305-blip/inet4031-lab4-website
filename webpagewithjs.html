@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nawal's Lightbulb Demo</title>
+    <style>
+        body {
+            background-color: lightgreen; /* personalized background */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: darkgreen;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            margin-top: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
 <body>
+    <h1>Welcome to Nawal's Lightbulb Page!</h1>
+    <p>This fun little webpage lets you switch a lightbulb on and off. Try it out by clicking the buttons below and watch the bulb light up!</p>
 
-<h2>Simple Web Page with HTML and JavaScript</h2>
-
-<p>JavaScript can change HTML attribute values.</p>
-
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-
-</body>
-</html>
+    <img id="lightbulb" src="pi
